@@ -1,0 +1,16 @@
+config {
+  type: "table",
+  name: "count_table2"
+}
+
+SELECT
+  t2.id AS id,
+  t2.name2     AS name2,
+  t2.date_id   AS DAY,
+  COUNT(*)     AS CALL_COUNT
+FROM
+  ${ref("table2")} AS t2
+GROUP BY
+  t2.id,
+  t2.name2,
+  t2.date_id
