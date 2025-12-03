@@ -1,0 +1,6 @@
+config {
+    type: "declaration",
+    database: "youtube-417505",
+    schema: "test_dataset",
+    name: "table3"
+}
