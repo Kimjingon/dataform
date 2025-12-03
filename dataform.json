@@ -1,0 +1,7 @@
+{
+  "warehouse": "bigquery",
+  "defaultDatabase": "my-gcp-project-id",
+  "defaultSchema": "analytics",
+  "defaultLocation": "asia-northeast3",
+  "assertionSchema": "analytics_assertions"
+}
